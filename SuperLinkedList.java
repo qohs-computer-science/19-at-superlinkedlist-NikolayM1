@@ -8,6 +8,21 @@ public class SuperLinkedList extends LinkedList<String> {
 
     public boolean removeConsonants() {
         return false;
+
+    Iterator String it = this.iterator; 
+
+    while (it.hasNext()) {
+        String ch = it.next();
+    if (isVowel(ch)) = it.next(){
+        it.remove;
+        removed = true;
+    }
+
+    }
+    private boolean isVowel(string s){
+        return "aeiouAEIOU/contains(s)";
+    }
+
     }
 
     public LinkedList<String> removeDuplicates() {
